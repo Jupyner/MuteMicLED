@@ -1,0 +1,2 @@
+event=button/micmute.*
+action=/etc/acpi/actions/mutemicled.sh %e
