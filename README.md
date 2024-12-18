@@ -6,12 +6,13 @@ This is an edited version of @username227's MuteLED script to work with my F8 Mu
 
 First, check and see if the following command will turn on your mute mic LED:
 ```
-sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x715 0x0
+udo hda-verb /dev/snd/hwC1D0 0x1 0x716 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x4
 
 ```
 and that this command turns off your LED:
 ```
-sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x1 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x715 0x0
+udo hda-verb /dev/snd/hwC1D0 0x1 0x716 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x1
+
 
 ```
 
