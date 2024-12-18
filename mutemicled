@@ -1,6 +1,7 @@
 #!/bin/sh
 if [ $(sudo -u $(id -u -n 1000) env XDG_RUNTIME_DIR=/run/user/1000 pamixer --source 58 --get-mute) = "true" ]; then 
-sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x715 0x0
+sudo hda-verb /dev/snd/hwC1D0 0x1 0x716 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x4
 else 
-sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x1 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x715 0x0
+sudo hda-verb /dev/snd/hwC1D0 0x1 0x716 0x4 && sudo hda-verb /dev/snd/hwC1D0 0x1 0x717 0x1
+
 fi
