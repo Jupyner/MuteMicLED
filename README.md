@@ -1,6 +1,6 @@
 # MuteMicLED
 
-This is an edited version of @username227's MuteLED script to work with my F8 Mute Mic LED. 
+This is an edited version of @username227's MuteLED script to work with my F8 Mute Mic LED. It works on my HP Envy x360 with Arch Linux, but results may vary.
 
 # Instructions:
 
