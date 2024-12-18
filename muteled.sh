@@ -1,6 +1,6 @@
 #!/bin/sh
     case "$2" in
-        MUTE) /usr/bin/muteled ;;
+        MICMUTE) /usr/bin/mutemicled ;;
         *)    logger "ACPI action undefined: $2" ;;
     esac
     ;;
