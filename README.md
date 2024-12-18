@@ -29,9 +29,9 @@ You can use these commands:
 cd MuteMicLed
 chmod +x mutemicled
 chmod +x mutemicled.sh
-sudo mv mutemicled /usr/bin/mutemicled
-sudo mv mutemicled.sh /etc/acpi/actions/mutemicled.sh
-sudo mv mute-mic-led /etc/acpi/events/mute-mic-led
+mv mutemicled /usr/bin/mutemicled
+mv mutemicled.sh /etc/acpi/actions/mutemicled.sh
+mv mute-mic-led /etc/acpi/events/mute-mic-led
 
 ```
 The first two files should have execute rights (755).
